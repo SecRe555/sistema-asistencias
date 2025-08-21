@@ -24,7 +24,6 @@ export default function Login() {
         display: vistaResponsiva ? 'none' : 'block',
         maxHeight: '100%',
         flexGrow: 2,
-        bgcolor: 'red',
         overflow: 'hidden'
       }}>
         <img src={imgLogin} alt="Imagen decorativa" style={{width: '100%', height: '100%', objectFit: "cover"}}/>
@@ -46,7 +45,7 @@ export default function Login() {
             <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2}}>
               <Typography className={styles.formLinkContainer} textAlign={'center'}>¿No tienes una cuenta? <Link
                 component={RouterLink}
-                to={'/'}>Registrate</Link></Typography>
+                to={'/registro'}>Registrate</Link></Typography>
               <Typography className={styles.formLinkContainer} textAlign={'center'}>¿Olvidaste tu contraseña? <Link
                 component={RouterLink}
                 to={'/'}>Recuperala</Link> </Typography>
