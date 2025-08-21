@@ -1,9 +1,9 @@
 import {createBrowserRouter} from "react-router-dom";
-import Login from "@/routes/auth/Login";
+import Login from "@/routes/(auth)/Login";
 
 const router = createBrowserRouter([
   {path: "/"},
-  {path: "/auth", children: [{path: "login", element: <Login/>}]},
+  {path: "/", children: [{path: "login", element: <Login/>}]},
 ]);
 
 export default router;

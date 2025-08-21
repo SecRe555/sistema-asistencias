@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Fira sans";
+  src: url("/assets/fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/assets/fonts/Oswald-Regular.ttf");
+}
+
 #root {
   width: 100dvw;
   height: 100dvh;
